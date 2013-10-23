@@ -28,7 +28,7 @@
     <file path="/new_site_controller.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382563837473" ignored="false" />
     <file path="/editable_site.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382564660026" ignored="false" />
     <file path="/site.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382565668638" ignored="false" />
-    <file path="/Gemfile" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382568748587" ignored="false" />
+    <file path="/Gemfile" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382571857363" ignored="false" />
     <file path="/20131023220005_renamed_site_to_news_bite.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382565634017" ignored="false" />
     <file path="/temp.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382565725853" ignored="false" />
     <file path="/news_bite.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382571309499" ignored="false" />
@@ -70,7 +70,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="3" selection-start="602" selection-end="602" vertical-scroll-proportion="0.50152594">
+            <state line="7" column="7" selection-start="112" selection-end="112" vertical-scroll-proportion="0.12105799">
               <folding />
             </state>
           </provider>
@@ -711,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="3" selection-start="602" selection-end="602" vertical-scroll-proportion="0.50152594">
+        <state line="7" column="7" selection-start="112" selection-end="112" vertical-scroll-proportion="0.12105799">
           <folding />
         </state>
       </provider>
