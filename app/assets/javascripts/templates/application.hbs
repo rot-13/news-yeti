@@ -1,0 +1,16 @@
+<div>
+    {{outlet}}
+</div>
+
+<footer>
+    <span>&copy;2014 Yon</span>
+    <nav>
+        {{#link-to 'index'}}Home{{/link-to}}
+        |
+        {{#link-to 'about'}}About{{/link-to}}
+        |
+        {{#link-to 'sites'}}All Sites{{/link-to}}
+        |
+        {{#link-to 'sites.new'}}New Site{{/link-to}}
+    </nav>
+</footer>

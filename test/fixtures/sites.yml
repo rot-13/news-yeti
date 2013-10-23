@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  short_name: MyString
+  top_text: MyString
+  center_text: MyString
+  center_text_color: MyString
+
+two:
+  short_name: MyString
+  top_text: MyString
+  center_text: MyString
+  center_text_color: MyString
