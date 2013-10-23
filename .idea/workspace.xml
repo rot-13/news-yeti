@@ -4,25 +4,45 @@
     <list default="true" id="376c6b38-2f9f-448b-b260-83d771f74259" name="Default" comment="" />
     <ignored path="kvar.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/routes.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380808922947" ignored="false" />
+    <file path="/routes.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382568227343" ignored="false" />
     <file path="/application_controller.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380808420116" ignored="false" />
     <file path="/site.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380808629393" ignored="false" />
-    <file path="/sites_controller.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1381009788627" ignored="false" />
-    <file path="$PROJECT_DIR$/db/schema.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380808827687" ignored="false" />
-    <file path="/application.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380920146282" ignored="false" />
+    <file path="/sites_controller.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382567600463" ignored="false" />
+    <file path="/application.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382562657940" ignored="false" />
     <file path="/sites.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380810869482" ignored="false" />
     <file path="/about.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380809695226" ignored="false" />
-    <file path="/router.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1381010528080" ignored="false" />
-    <file path="/application.css.scss" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380920456246" ignored="false" />
+    <file path="/router.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382562890557" ignored="false" />
+    <file path="/application.css.scss" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382570714943" ignored="false" />
     <file path="/new.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380920335522" ignored="false" />
     <file path="/site_index_route.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1381010278894" ignored="false" />
-    <file path="/index.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1381010482892" ignored="false" />
+    <file path="/index.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382566995993" ignored="false" />
     <file path="/layout.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380810802918" ignored="false" />
-    <file path="/site.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1381010716337" ignored="false" />
+    <file path="/site.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382563337987" ignored="false" />
     <file path="/site_new_route.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1380812653293" ignored="false" />
-    <file path="/store.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1381009343768" ignored="false" />
-    <file path="/site_serializer.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1381009581903" ignored="false" />
+    <file path="/store.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382569548505" ignored="false" />
+    <file path="/site_serializer.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382565681817" ignored="false" />
     <file path="/edit_route.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1381011012577" ignored="false" />
+    <file path="/application.html.erb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382544894635" ignored="false" />
+    <file path="/new_site.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382564118624" ignored="false" />
+    <file path="/new_site.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382564575534" ignored="false" />
+    <file path="/new_site_controller.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382563837473" ignored="false" />
+    <file path="/editable_site.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382564660026" ignored="false" />
+    <file path="/site.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382565668638" ignored="false" />
+    <file path="/Gemfile" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382568748587" ignored="false" />
+    <file path="/20131023220005_renamed_site_to_news_bite.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382565634017" ignored="false" />
+    <file path="/temp.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382565725853" ignored="false" />
+    <file path="/news_bite.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382571309499" ignored="false" />
+    <file path="/new_bite.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382567152467" ignored="false" />
+    <file path="/new_bite.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382570696046" ignored="false" />
+    <file path="/a.dummy" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382568118999" ignored="false" />
+    <file path="/news_bites_controller.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382571466362" ignored="false" />
+    <file path="/new_bite_route.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382570501368" ignored="false" />
+    <file path="/news_bite_serializer.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382571381777" ignored="false" />
+    <file path="/bite_route.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382570259184" ignored="false" />
+    <file path="/edit_bite_route.js.coffee" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382570792500" ignored="false" />
+    <file path="/edit_bite.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382570959466" ignored="false" />
+    <file path="/bite.hbs" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382570931783" ignored="false" />
+    <file path="/news_bite.rb" changelist="376c6b38-2f9f-448b-b260-83d771f74259" time="1382571570920" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +56,72 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="kvar" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="news_bite.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/news_bite.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.051881995">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_bite.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/news_bite.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="19" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_bite_serializer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/serializers/news_bite_serializer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="14" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_bites_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/news_bites_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="17" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_bite_route.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/edit_bite_route.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acts_as_url.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0/gems/stringex-2.1.0/lib/stringex/acts_as_url.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="72" selection-start="2718" selection-end="2718" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -51,29 +131,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/sites/site_new_route.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/sites/new_route.js.coffee" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/sites/new.hbs" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/models/site.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/store.js.coffee" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/sites_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/sites/site_index_route.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/sites/index.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/bite_route.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/new_bite_route.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/router.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/site.hbs" />
-        <option value="$PROJECT_DIR$/app/serializers/site_serializer.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/sites/edit_route.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/edit_bite_route.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/bite.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/edit_bite.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/new_bite.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/models/news_bite.js.coffee" />
+        <option value="$PROJECT_DIR$/app/serializers/news_bite_serializer.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/news_bites_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/news_bite.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1174" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -101,7 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -110,19 +190,204 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news-yeti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="ruby.project.structure" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/templates" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/routes" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts/templates/sites" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -300,14 +565,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2234375" sideWeight="0.6702034" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2234375" sideWeight="0.6706231" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -316,7 +582,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979664" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -384,86 +649,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/editable_bite.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+        <state line="1" column="24" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sites_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.051881995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="46" selection-end="74" vertical-scroll-proportion="0.034587994" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/sites/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="122" selection-end="122" vertical-scroll-proportion="0.08646999" />
+        <state line="81" column="7" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.91353">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/router.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" />
+        <state line="7" column="44" selection-start="218" selection-end="218" vertical-scroll-proportion="0.12105799">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/sites/new.hbs">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/new_bite_route.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
+        <state line="1" column="117" selection-start="156" selection-end="156" vertical-scroll-proportion="0.017525773">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/site.hbs">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/bite_route.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" />
+        <state line="1" column="54" selection-start="38" selection-end="90" vertical-scroll-proportion="0.017293997">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/serializers/site_serializer.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
+        <state line="2" column="24" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/sites/form.hbs">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="7" column="8" selection-start="92" selection-end="128" vertical-scroll-proportion="0.12105799">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/sites/site_index_route.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/bite.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" />
+        <state line="5" column="51" selection-start="199" selection-end="199" vertical-scroll-proportion="0.08646999">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/sites/edit_route.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/edit_bite.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
+        <state line="7" column="20" selection-start="229" selection-end="229" vertical-scroll-proportion="0.12105799">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/sites/new_route.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/new_bite.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="36" selection-start="76" selection-end="76" vertical-scroll-proportion="0.017293997" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0/gems/stringex-2.1.0/lib/stringex/acts_as_url.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="72" selection-start="2718" selection-end="2718" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/edit_bite_route.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/news_bites_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/news_bite_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/news_bite.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/news_bite.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.051881995">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

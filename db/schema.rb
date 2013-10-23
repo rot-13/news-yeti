@@ -11,15 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131003135803) do
+ActiveRecord::Schema.define(version: 20131023220005) do
 
-  create_table "sites", force: true do |t|
-    t.string   "short_name"
+  create_table "news_bites", force: true do |t|
     t.string   "top_text"
     t.string   "center_text"
-    t.string   "center_text_color"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "url"
   end
 
 end

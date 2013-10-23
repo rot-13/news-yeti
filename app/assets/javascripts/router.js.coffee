@@ -2,12 +2,10 @@
 
 
 Kvar.Router.map ->
-  @resource 'sites', ->
-    @resource 'site', path: '/:site_id', ->
-      @route 'edit'
-    @route 'new'
-
-  @route("about")
+  @route 'about'
+  @resource 'new_bite', path: '/new'
+  @resource 'bite', path: '/y/:url'
+  @resource 'edit_bite', path: '/y/:url/edit'
 
 Kvar.AboutRoute = Ember.Route.extend
   setupController: (controller) ->
