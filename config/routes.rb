@@ -5,5 +5,5 @@ Kvar::Application.routes.draw do
   end
 
   root to: 'application#root'
-  get '*all' => 'application#root'
+  #get '*all' => 'application#root'
 end
