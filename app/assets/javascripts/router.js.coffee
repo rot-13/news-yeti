@@ -1,6 +1,5 @@
 # For more information see: http://emberjs.com/guides/routing/
 
-
 Kvar.Router.map ->
   @route 'about'
   @resource 'new_bite', path: '/new'

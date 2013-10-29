@@ -6,4 +6,9 @@ class ApplicationController < ActionController::Base
   def root
 
   end
+
+  def random
+    redirect_to '/#/y/' + NewsBite.random.url
+  end
+
 end
