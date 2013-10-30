@@ -1,4 +1,4 @@
 <div class='site'>
-    {{view Ember.ContenteditableView plaintext=true class='top' valueBinding="topText"}}
-    {{view Ember.ContenteditableView plaintext=true class='middle' valueBinding="centerText"}}
+    {{view Ember.ContenteditableView class='top' editableBinding='isNew' valueBinding="topText"}}
+    {{view Ember.ContenteditableView class='middle' autofocus=true valueBinding="centerText"}}
 </div>

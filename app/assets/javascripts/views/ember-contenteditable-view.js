@@ -1,18 +1,18 @@
 Ember.ContenteditableView = Ember.View.extend({
 	tagName: 'div',
-    attributes: ['contenteditable'],
+    attributeBindings: ['contenteditable', 'dir'],
 
 	// Variables:
-	editable: false,
+    editable: true,
+    dir: 'auto',
 	isUserTyping: false,
-	plaintext: false,
+	plaintext: true,
 
-	// Properties:
-	contenteditable: (function() {
-		var editable = this.get('editable');
-
-		return editable ? 'true' : undefined;
-	}).property('editable'),
+    // Properties:
+    contenteditable: (function() {
+        var editable = this.get('editable');
+        return editable ? 'true' : undefined;
+    }).property('editable'),
 
 	// Observers:
 	valueObserver: (function() {
@@ -23,7 +23,11 @@ Ember.ContenteditableView = Ember.View.extend({
 
 	// Events:
 	didInsertElement: function() {
-		return this.setContent();
+        var content = this.setContent();
+        if (this.get('autofocus')){
+            setEndOfContenteditable(this.get('element'));
+        }
+        return  content;
 	},
 
 	focusOut: function() {
@@ -45,6 +49,6 @@ Ember.ContenteditableView = Ember.View.extend({
 	},
 
 	setContent: function() {
-		return this.$().html(this.get('value')).attr('contenteditable', true).attr('dir', 'auto');
+		return this.$().html(this.get('value'));
 	}
 });
