@@ -19,7 +19,7 @@ class NewsBitesController < ApplicationController
 
   def create
     @news_bite = NewsBite.create(news_bite_params)
-    respond_with @news_bite
+    respond_with @news_bite, scope: {:send_edit_token => true}
   end
 
   # PATCH/PUT /sites/1

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131023220005) do
+ActiveRecord::Schema.define(version: 20131030154554) do
 
   create_table "news_bites", force: true do |t|
     t.string   "top_text"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20131023220005) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "url"
+    t.string   "edit_key"
   end
 
 end
