@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   end
 
   def random
-    redirect_to '/#/y/' + NewsBite.random.url
+    redirect_to "/#{NewsBite.random.url}"
   end
 
 end
