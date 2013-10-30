@@ -6,7 +6,6 @@ Kvar.Router.reopen(
 
 Kvar.Router.map ->
   @route 'about'
-  @resource 'new_bite', path: '/new'
   @resource 'bite', path: '/:url'
   @resource 'edit_bite', path: '/:url/edit'
 

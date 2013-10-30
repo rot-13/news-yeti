@@ -1,8 +1,8 @@
 {{ render 'editable_bite' model }}
 <div class='extra_site_controls'>
 
-    <button class='btn btn-lg btn-primary' {{action "submitAction" model}}>
+    <button {{ bind-attr class='isDirty::disabled :btn :btn-lg :btn-primary'}} {{action "submitAction" model}}>
         <i class='icon-save'></i>
-        UPDATE
+        SAVE
     </button>
 </div>

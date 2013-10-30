@@ -1,11 +1,8 @@
-<div class='site ltr'>
-    <div class='top'>Have you used News Yeti yet?</div>
-    <div class='middle' contenteditable>NO.</div>
-</div>
-<div class='bottom text-center'>
-    {{#link-to 'new_bite' class='btn btn-hg btn-primary'}}
-        <i class='icon-plus'></i>
-        CREATE A NEWS BITE
-    {{/link-to}}
-    <img class='yeti' src='/assets/news-yeti.png'/>
+{{ render 'editable_bite' model }}
+<div class='extra_site_controls'>
+    <p class='lead'>Just write something, save and share your news updates with the world!</p>
+    <button {{ bind-attr class='::disabled :btn-save'}} {{action "submitAction" model}}>
+        <i class='icon-save'></i>
+        SAVE
+    </button>
 </div>
