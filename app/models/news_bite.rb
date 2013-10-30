@@ -11,7 +11,7 @@ class NewsBite < ActiveRecord::Base
   end
 
   def generate_edit_key
-    self.update!(:edit_key => SecureRandom.base64(22))
+    self.update!(:edit_key => SecureRandom.urlsafe_base64(22))
   end
 
 end
