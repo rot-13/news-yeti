@@ -4,8 +4,14 @@ class NewsBite < ActiveRecord::Base
 
   scope :random, -> { order('random()').first }
 
+  after_create :generate_edit_key
+
   def to_param
     url
+  end
+
+  def generate_edit_key
+    self.update!(:edit_key => SecureRandom.base64(22))
   end
 
 end
