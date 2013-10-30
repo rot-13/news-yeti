@@ -68,7 +68,7 @@ footer{
   .yeti{
     @include single-transition(right, 500ms);
     right: -50px;
-    @media screen and (min-width: 420px){
+    @media screen and (min-width: 480px){
       right: 40px;
     }
     position: absolute;
