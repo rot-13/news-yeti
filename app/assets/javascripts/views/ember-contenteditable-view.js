@@ -45,6 +45,6 @@ Ember.ContenteditableView = Ember.View.extend({
 	},
 
 	setContent: function() {
-		return this.$().html(this.get('value')).attr('contenteditable', true);
+		return this.$().html(this.get('value')).attr('contenteditable', true).attr('dir', 'auto');
 	}
 });
