@@ -5,7 +5,6 @@
 * foreign language support in URL
 * Update page title
 * Add Facebook og:meta tags
-* About Page
 
 * Facebook like widget
 * Twitter tweet widget
