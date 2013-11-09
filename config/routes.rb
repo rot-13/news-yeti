@@ -5,7 +5,9 @@ Kvar::Application.routes.draw do
   end
   get 'random', to: 'application#random'
 
-  get '*path', to: 'application#root'
+  get '/:news_bite', to: 'application#root'
+  get '/:news_bite/:edit_key', to: 'application#root', as: 'news_bite_edit'
+
   root to: 'application#root'
 
 end

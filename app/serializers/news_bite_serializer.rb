@@ -1,6 +1,6 @@
 class NewsBiteSerializer < ActiveModel::Serializer
   def edit_url
-    "#{news_bite_url(object)}/#{object.edit_key}"
+    "#{news_bite_edit_url(object, object.edit_key)}"
   end
 
   attributes :top_text, :center_text, :url, :id, :edit_url
