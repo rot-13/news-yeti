@@ -7,7 +7,7 @@ Kvar.Router.reopen(
 Kvar.Router.map ->
   @route 'about'
   @resource 'bite', path: '/:url'
-  @resource 'edit_bite', path: '/:url/edit'
+  @resource 'edit_bite', path: '/:url/:edit_key'
 
 Kvar.AboutRoute = Ember.Route.extend
   setupController: (controller) ->

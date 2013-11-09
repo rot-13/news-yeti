@@ -1,10 +1,9 @@
 <div class='site'>
     <div class='top' dir='auto'>{{ topText }}</div>
     <div class='middle' dir='auto'>{{ centerText }}</div>
-</div>
-<div class='extra_site_controls'>
-    {{#link-to 'edit_bite' model class='btn btn-lg btn-default'}}
-        <i class='icon-edit'></i>
-        Edit
-    {{/link-to}}
+  {{#if edit_url}}
+    <div class='text-info top'>
+        In order to edit this news bite, save the following url: <u>{{ edit_url }}</u>
+    </div>
+  {{/if}}
 </div>
