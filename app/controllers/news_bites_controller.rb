@@ -24,7 +24,9 @@ class NewsBitesController < ApplicationController
 
   # PATCH/PUT /sites/1
   def update
-    @news_bite.update(news_bite_params)
+    if session[:allow_edit] == @news_bite.edit_key
+      @news_bite.update(news_bite_params)
+    end
     render json: @news_bite
   end
 
