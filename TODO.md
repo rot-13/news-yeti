@@ -11,4 +11,3 @@
 * fix appearance on mobile phones:
     * iphone4 3.5" screen doesn't display the save button
     * the margin to the top of the screen is too big
-    * page is too wide

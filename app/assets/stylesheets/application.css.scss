@@ -65,18 +65,25 @@ footer{
   position: relative;
   margin-top: 150px;
   box-shadow: 0 500px 0 500px #C6E5F9;
-  .yeti{
+  .yeti-container{
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
     @include single-transition(right, 500ms);
-    right: -50px;
-    @media screen and (min-width: 480px){
-      right: 40px;
-    }
+    width: 150px;
+    height: 146px;
+    vertical-align: bottom;
+    bottom: 20px;
+  }
+  .yeti{
     position: absolute;
     width: 100px;
     height: 146px;
     background-size: 100px 146px;
-    vertical-align: bottom;
-    bottom: 20px;
+    @media screen and (min-width: 480px){
+      right: 40px;
+    }
+    right: -50px;
     @include background-image(
       image-url('news-yeti.png')
     );
