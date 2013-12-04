@@ -1,0 +1,7 @@
+<div id="editLinkAlert" class="alert alert-danger alert-dismissable">
+    <button {{action "hide" target=view}} type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <span class="stress">Important:</span>
+    You will able to edit this news bite only with this url:
+    <div class='small'>{{ edit_url }}</div>
+    <a {{bindAttr href="mailto"}} target="_blank">Click here to send an email with the edit url</a>
+</div>

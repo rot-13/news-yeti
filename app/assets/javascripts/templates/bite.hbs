@@ -1,12 +1,7 @@
+{{#if edit_url}}
+    {{view Kvar.EditLinkView }}
+{{/if}}
 <div class='site'>
     <div class='top' dir='auto'>{{ topText }}</div>
     <div class='middle' dir='auto'>{{ centerText }}</div>
-  {{#if edit_url}}
-    <div class='text-info top'>
-        <span class="stress">Important:</span>
-        You will able to edit this news bite only with this url:
-        <div class='small'>{{ edit_url }}</div>
-        <a {{bindAttr href="mailto"}}>Click here to send an email with the edit url</a>
-    </div>
-  {{/if}}
 </div>
