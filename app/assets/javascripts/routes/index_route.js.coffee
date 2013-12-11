@@ -1,6 +1,9 @@
 Kvar.IndexRoute = Ember.Route.extend
   model: -> Kvar.NewsBite.createRecord(@randomText())
 
+  activate: ->
+    ga('send', 'pageview') if ga?
+
   actions:
     submitAction: (newsBite) ->
       newsBite.save().then( (savedItem) =>

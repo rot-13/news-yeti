@@ -6,3 +6,6 @@ Kvar.EditBiteRoute = Ember.Route.extend
       newsBite.save().then( (savedItem) =>
         @transitionTo 'bite', savedItem
       )
+
+  activate: ->
+    ga('send', 'pageview') if ga?
