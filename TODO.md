@@ -1,6 +1,5 @@
 * foreign language support in URL (news-yeti/מי הזמר המפורסם/)
 * Add colors
-* Update page title
 * Add Facebook og:meta tags
 * beautify the edit url banner (put the url in text area with a copy button)
 
