@@ -50,12 +50,10 @@ class NewsBitesController < ApplicationController
 
 
   def facebook_scraper
-    if request.format.html?
-      if request.user_agent.include? 'facebookexternalhit'
-        render template: 'news_bites/facebook', layout: nil
-      else
-        render template: 'application/root'
-      end
+    if request.user_agent.include? 'facebookexternalhit'
+      render template: 'news_bites/facebook', layout: nil
+    elsif request.format.html?
+      render template: 'application/root'
     end
   end
 
