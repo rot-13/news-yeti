@@ -4,7 +4,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>News Yeti</title>
+  <% if @news_bite.present? %>
+  	<%= render 'news_bites/metas' %>
+  <% else %>
+  	<title>News Yeti</title>
+  	<meta name="description" content="News Yeti is a site that lets you quickly and easily create news bites, short and to the point mini stories that you can share with people across the internet.">
+  <% end %>
   <%= stylesheet_link_tag    "application", media: "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
