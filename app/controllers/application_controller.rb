@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+
   def root
     permit_news_bite_update
   end
@@ -22,4 +23,5 @@ class ApplicationController < ActionController::Base
 
     session[:allow_edit] = allow_edit ? params[:edit_key] : nil
   end
+
 end

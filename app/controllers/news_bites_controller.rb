@@ -1,8 +1,10 @@
 class NewsBitesController < ApplicationController
 
   before_action :set_news_bite, only: [:show, :update, :destroy]
+  before_action :facebook_scraper, only: [:show]
 
   respond_to :json
+  respond_to :html, only: [:show]
 
   def index
     @news_bites = NewsBite.all
@@ -45,4 +47,14 @@ class NewsBitesController < ApplicationController
     def news_bite_params
       params.require(:news_bite).permit(:top_text, :center_text)
     end
+
+
+  def facebook_scraper
+    if request.user_agent.include? 'facebookexternalhit'
+      render template: 'news_bites/facebook', layout: nil
+    elsif request.format.html?
+      render template: 'application/root'
+    end
+  end
+
 end
