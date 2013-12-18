@@ -26,7 +26,9 @@ gem 'compass-rails', '~> 2.0.alpha.0'
 gem 'font-awesome-rails'
 
 gem 'stringex'
+gem 'geocoder'
 gem 'powder'
+
 
 group :production do
   gem 'rails_12factor'
