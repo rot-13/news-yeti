@@ -1,0 +1,10 @@
+window.en =
+  'welcome.text': 'Just write something, save and share your news updates with the world!'
+  'button.save' : 'SAVE'
+  'text.ampersand' : '&'
+  'text.about' : 'About'
+  'text.home' : 'Home'
+  'text.random' : 'Random News Bite'
+  'log_out.title': 'Log out as {{name}}'
+  'comments.header.one': 'One Comment'
+  'comments.header.other': '{{count}} Comments'

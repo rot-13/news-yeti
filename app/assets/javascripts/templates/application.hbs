@@ -6,15 +6,15 @@
     <div class='yeti-container'><div class='yeti'></div></div>
     <span class='created-by'>
         <a href='https://twitter.com/gardenofwine' target='_blank'>@gardenofwine</a>
-        &
+        {{t 'text.ampersand'}}
         <a href='https://twitter.com/yonbergman' target='_blank'>@yonbergman</a>
         &copy;2014
     </span>
     <nav>
-        {{#link-to 'index'}}Home{{/link-to}}
+        {{#link-to 'index'}}{{t 'text.home'}}{{/link-to}}
         |
-        {{#link-to 'about'}}About{{/link-to}}
+        {{#link-to 'about'}}{{t 'text.about'}}{{/link-to}}
         |
-        <a href ='/random'>Random News Bite</a>
+        <a href ='/random'>{{t 'text.random'}}</a>
     </nav>
 </footer>

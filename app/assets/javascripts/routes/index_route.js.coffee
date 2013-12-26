@@ -20,3 +20,4 @@ Kvar.IndexRoute = Ember.Route.extend
     {topText: 'Is the Government shut down?', centerText: "YES."},
     {topText: 'Did the dog eat poop today?', centerText: "YES!"},
   ]
+

@@ -1,8 +1,8 @@
 {{ render 'editable_bite' model }}
 <div class='extra_site_controls'>
-    <p class='lead'>Just write something, save and share your news updates with the world!</p>
+    <p class='lead'>{{t "welcome.text"}}</p>
     <button {{ bind-attr class='::disabled :btn-save'}} {{action "submitAction" model}}>
         <i class='icon-save'></i>
-        SAVE
+        {{t 'button.save'}}
     </button>
 </div>
