@@ -5,6 +5,7 @@ Kvar::Application.routes.draw do
   end
 
   get'/', to: 'application#root'
+  get'about', to: 'application#root'
 
   get 'random', to: 'application#random'
 
