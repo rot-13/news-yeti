@@ -10,6 +10,10 @@ Kvar.IndexRoute = Ember.Route.extend
         @transitionTo 'bite', savedItem
       )
 
+    randomize: (newsBite) ->
+      newsBite.setProperties(@randomText())
+
+
   randomText: ->
     @allTexts[Math.floor(Math.random() * @allTexts.length)]
 
