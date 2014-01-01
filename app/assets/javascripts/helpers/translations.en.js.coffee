@@ -1,5 +1,6 @@
 window.en =
   'welcome.text': 'Just write something, save and share your news updates with the world!'
+  'welcome.anotherExample': 'Show me another example'
   'button.save' : 'SAVE'
   'text.ampersand' : '&'
   'text.about' : 'About'

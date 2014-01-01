@@ -22,11 +22,6 @@ Kvar.IndexRoute = Ember.Route.extend
     {topText: 'Have you ever used News Yeti?', centerText: "NO."},
     {topText: 'Is Half-Life 3 out yet?', centerText: "NO."},
     {topText: 'Is the Government shut down?', centerText: "YES."},
-<<<<<<< HEAD
-    {topText: 'Did the dog eat poop today?', centerText: "YES!"},
-  ]
-
-=======
     {topText: 'What year is it?', centerText: "2014"},
     {topText: 'Ask your grandpa, can I have his hand-me-downs?', centerText: "No."},
     {topText: 'Is there life on mars?', centerText: "NO."},
@@ -40,4 +35,3 @@ Kvar.IndexRoute = Ember.Route.extend
     {topText: 'Is iPhone 5 out yet?',  centerText: "YES."},
     {topText: 'Is Fallout 4 out yet?',  centerText: "NO."},
   ]
->>>>>>> 79630f501641387efd0ee3a1c6ee2084111d3a83
