@@ -1,6 +1,17 @@
 {{ render 'editable_bite' model }}
 <div class='extra_site_controls'>
+<<<<<<< HEAD
     <p class='lead'>{{t "welcome.text"}}</p>
+=======
+    <p class='lead'>
+        Just write something, save and share your news updates with the world!
+        <br/>
+        <button class="btn btn-xs btn-default" {{action "randomize" model}}>
+            <i class="icon-random"></i>
+            Show me another example
+        </button>
+    </p>
+>>>>>>> 79630f501641387efd0ee3a1c6ee2084111d3a83
     <button {{ bind-attr class='::disabled :btn-save'}} {{action "submitAction" model}}>
         <i class='icon-save'></i>
         {{t 'button.save'}}
