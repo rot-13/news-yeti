@@ -2,9 +2,9 @@ class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
+  before_action :set_locale
 
   def root
-    @location = request.location
     permit_news_bite_update
   end
 
@@ -12,7 +12,12 @@ class ApplicationController < ActionController::Base
     redirect_to "/#{NewsBite.random.url}"
   end
 
+
   private
+  def set_locale
+    @location = request.location
+  end
+
   def permit_news_bite_update
     if params[:edit_key].present?
       allow_edit =

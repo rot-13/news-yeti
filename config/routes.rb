@@ -4,7 +4,8 @@ Kvar::Application.routes.draw do
     resources :news_bites
   end
 
-  get'/', to: 'application#root'
+  get '/', to: 'application#root'
+  get 'about', to: 'application#root'
 
   get 'random', to: 'application#random'
 
