@@ -14,4 +14,5 @@ class NewsBite < ActiveRecord::Base
     self.update!(:edit_key => SecureRandom.urlsafe_base64(22))
   end
 
+
 end

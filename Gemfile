@@ -28,6 +28,7 @@ gem 'font-awesome-rails'
 gem 'stringex'
 gem 'geoip'
 gem 'powder'
+gem 'imgkit'
 
 
 group :production do
