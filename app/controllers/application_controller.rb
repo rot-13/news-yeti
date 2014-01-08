@@ -15,7 +15,20 @@ class ApplicationController < ActionController::Base
 
   private
   def set_locale
-    @location = request.location
+    remote_ip = request.remote_ip
+    #remote_ip = '81.218.176.116' - israel ip
+
+    geo_info = geoip.country(remote_ip)
+    if geo_info != nil
+      @laguage = geo_info[:country_code2] == 'IL' ? 'he' : 'en'
+    else
+      @laguage = {}
+    end
+
+    if remote_ip == "127.0.0.1" #todo: check for other local addresses or set default value
+      @laguage = 'he'
+    end
+
   end
 
   def permit_news_bite_update
@@ -27,6 +40,10 @@ class ApplicationController < ActionController::Base
     end
 
     session[:allow_edit] = allow_edit ? params[:edit_key] : nil
+  end
+
+  def geoip
+    @@geoip ||= GeoIP.new("#{Rails.root}/db/GeoIP.dat")
   end
 
 end
