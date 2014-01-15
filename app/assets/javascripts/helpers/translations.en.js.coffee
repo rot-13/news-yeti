@@ -1,6 +1,14 @@
 window.en =
   'welcome.text': 'Just write something, save and share your news updates with the world!'
   'welcome.anotherExample': 'Show me another example'
+  'welcome.demobites.1.q':'Have you ever used News Yeti?'
+  'welcome.demobites.1.a': 'NO.'
+  'welcome.demobites.2.q':'Is the Government still shut down?'
+  'welcome.demobites.2.a': 'NO.'
+  'welcome.demobites.3.q':'What year is it?'
+  'welcome.demobites.3.a': '2014'
+  'welcome.demobites.4.q':'Is iPhone 6 out yet?'
+  'welcome.demobites.4.a': 'NO.'
   'button.save' : 'SAVE'
   'text.ampersand' : '&'
   'text.about' : 'About'
@@ -17,6 +25,4 @@ window.en =
   'editLink.important' : 'Important:'
   'editLink.explanation': 'You will able to edit this news bite only with this url:'
   'editLink.mailto' : 'Click here to send an email with the edit url'
-  'log_out.title': 'Log out as {{name}}'
-  'comments.header.one': 'One Comment'
-  'comments.header.other': '{{count}} Comments'
+

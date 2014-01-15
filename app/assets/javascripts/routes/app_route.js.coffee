@@ -7,5 +7,4 @@ Kvar.ApplicationRoute = Ember.Route.extend
     return
 
   beforeModel: ->
-    lang = language
-    Ember.I18n.translations = en;
+    Ember.I18n.translations = if (language == 'he') then he else en
