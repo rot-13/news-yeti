@@ -21,12 +21,13 @@ class NewsBitesController < ApplicationController
 
   def create
     @news_bite = NewsBite.create(news_bite_params)
-    respond_with @news_bite, scope: {:send_edit_token => true}
+    session[:edit_key] = @news_bite.edit_key
+    respond_with @news_bite
   end
 
   # PATCH/PUT /sites/1
   def update
-    if session[:allow_edit] == @news_bite.edit_key
+    if session[:edit_key] == @news_bite.edit_key
       @news_bite.update(news_bite_params)
     end
     render json: @news_bite
