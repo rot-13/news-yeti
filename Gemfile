@@ -22,7 +22,7 @@ gem 'debugger', group: [:development, :test]
 
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                               :github => 'anjlab/bootstrap-rails'
-gem 'compass-rails', '~> 2.0.alpha.0'
+gem 'compass-rails', '~> 1.1.2'
 gem 'font-awesome-rails'
 
 gem 'stringex'
