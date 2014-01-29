@@ -121,7 +121,9 @@ footer{
     color: black;
   }
 }
-
+.btn-edit{
+  margin-bottom: 10px;
+}
 .btn-save{
   @extend .btn;
   @extend .btn-hg;

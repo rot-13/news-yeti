@@ -10,6 +10,7 @@ window.he =
   'welcome.demobites.4.q':'האם אפשר לקנות את האייפון החדש בארץ?'
   'welcome.demobites.4.a': 'כן.'
   'button.save' : 'שמירה'
+  'button.edit' : 'עריכה'
   'text.ampersand' : 'ו'
   'text.about' : 'אודות'
   'text.home' : 'עמוד הבית'

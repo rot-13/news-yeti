@@ -3,3 +3,7 @@ Kvar.BiteRoute = Ember.Route.extend
   activate: ->
     $(document).attr('title', @modelFor('bite').get('topText') + " - News Yeti")
     ga('send', 'pageview') if ga?
+  actions:
+    editAction: (newsBite) ->
+      @transitionTo 'edit_bite', newsBite
+

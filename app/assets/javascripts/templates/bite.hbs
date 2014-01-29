@@ -1,12 +1,15 @@
 {{#if createdNow}}
     {{view Kvar.NewNewsBiteView }}
 {{/if}}
-{{#if canEdit}}
-
-{{/if}}
 <div class='site'>
     <div class='top' dir='auto'>{{ topText }}</div>
     <div class='middle' dir='auto'>{{ centerText }}</div>
+    {{#if canEdit}}
+        <button {{ bind-attr class=':btn-edit :btn :btn-lg :btn-primary'}} {{action "editAction" model}}>
+            <i class='icon-edit'></i>
+            {{t 'button.edit'}}
+        </button>
+    {{/if}}
     <div class="'shares">
         {{ view Kvar.LikeButton }}
         {{ view Kvar.TweetButton }}

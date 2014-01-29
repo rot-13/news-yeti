@@ -10,6 +10,7 @@ window.en =
   'welcome.demobites.4.q':'Is iPhone 6 out yet?'
   'welcome.demobites.4.a': 'NO.'
   'button.save' : 'SAVE'
+  'button.edit' : 'EDIT'
   'text.ampersand' : '&'
   'text.about' : 'About'
   'text.home' : 'Home'
