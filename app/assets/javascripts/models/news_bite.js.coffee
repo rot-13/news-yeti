@@ -3,4 +3,5 @@ Kvar.NewsBite = DS.Model.extend
   topText: DS.attr 'string'
   centerText: DS.attr 'string'
   createdNow: DS.attr 'boolean'
+  canEdit: DS.attr 'boolean'
   primaryKey: 'url'

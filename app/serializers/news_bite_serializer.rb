@@ -3,7 +3,7 @@ class NewsBiteSerializer < ActiveModel::Serializer
     "#{news_bite_edit_url(object, object.edit_key)}"
   end
 
-  attributes :top_text, :center_text, :url, :id, :created_now
+  attributes :top_text, :center_text, :url, :id, :created_now, :can_edit
 
   def id
     object.url
@@ -15,6 +15,10 @@ class NewsBiteSerializer < ActiveModel::Serializer
 
   def created_now
     true
+  end
+
+  def can_edit
+    scope.try(:[], :can_edit).present?
   end
 
 

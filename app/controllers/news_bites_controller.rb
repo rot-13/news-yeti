@@ -8,16 +8,14 @@ class NewsBitesController < ApplicationController
 
   def index
     @news_bites = NewsBite.all
-
     @news_bites.to_json
-
 
     respond_with @news_bites
   end
 
 
   def show
-    respond_with @news_bite do |format|
+    respond_with @news_bite, scope: {:can_edit => can_edit?} do |format|
       format.html { render }
       format.jpg {
         html = render_to_string('news_bites/facebook_image', layout: false, formats: 'html')
@@ -35,9 +33,7 @@ class NewsBitesController < ApplicationController
 
   # PATCH/PUT /sites/1
   def update
-    if session[:edit_key] == @news_bite.edit_key
-      @news_bite.update(news_bite_params)
-    end
+    @news_bite.update(news_bite_params) if can_edit?
     render json: @news_bite
   end
 
@@ -48,6 +44,11 @@ class NewsBitesController < ApplicationController
   end
 
   private
+
+    def can_edit?
+      session[:edit_key] == @news_bite.edit_key
+    end
+
     # Use callbacks to share common setup or constraints between actions.
     def set_news_bite
       @news_bite = NewsBite.where(url: params.require(:id)).first
