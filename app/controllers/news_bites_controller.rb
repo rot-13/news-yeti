@@ -19,10 +19,10 @@ class NewsBitesController < ApplicationController
   def show
     respond_with @news_bite do |format|
       format.html { render }
-      format.png {
+      format.jpg {
         html = render_to_string('news_bites/facebook_image', layout: false, formats: 'html')
         kit = IMGKit.new(html, quality: 100, width: 1200, height: 630)
-        send_data kit.to_img(:png), type: 'image/png', disposition: :inline
+        send_data kit.to_img(:jpg), type: 'image/jpeg', disposition: :inline
       }
     end
   end
