@@ -21,7 +21,7 @@ class NewsBitesController < ApplicationController
       format.html { render }
       format.jpg {
         html = render_to_string('news_bites/facebook_image', layout: false, formats: 'html')
-        kit = IMGKit.new(html, quality: 100, width: 1200, height: 630)
+        kit = IMGKit.new(html, quality: 100, width: 600, height: 315)
         send_data kit.to_img(:jpg), type: 'image/jpeg', disposition: :inline
       }
     end
