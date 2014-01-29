@@ -4,10 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :set_locale
 
-  def root
-    permit_news_bite_update
-  end
-
   def random
     redirect_to "/#{NewsBite.random.url}"
   end
@@ -29,17 +25,6 @@ class ApplicationController < ActionController::Base
       @laguage = 'he'
     end
 
-  end
-
-  def permit_news_bite_update
-    if params[:edit_key].present?
-      allow_edit =
-          NewsBite.find_by_url_and_edit_key(params[:news_bite], params[:edit_key]).present?
-    else
-      allow_edit  = false
-    end
-
-    session[:allow_edit] = allow_edit ? params[:edit_key] : nil
   end
 
   def geoip

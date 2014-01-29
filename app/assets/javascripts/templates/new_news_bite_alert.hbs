@@ -2,8 +2,4 @@
     <button {{action "hide" target=view}} type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
     <span class="stress">{{t 'editLink.important'}}</span>
     {{t 'editLink.explanation'}}
-    <p class="row">
-        <input type='text' class='small col-sm-6 col-sm-offset-3' {{ bindAttr value="edit_url_unescaped" }}/>
-    </p>
-    <a {{bindAttr href="mailto"}} target="_blank">{{t 'editLink.mailto'}}</a>
 </div>

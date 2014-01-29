@@ -1,5 +1,5 @@
-{{#if edit_url}}
-    {{view Kvar.EditLinkView }}
+{{#if createdNow}}
+    {{view Kvar.NewNewsBiteView }}
 {{/if}}
 <div class='site'>
     <div class='top' dir='auto'>{{ topText }}</div>
@@ -10,9 +10,9 @@
     </div>
 </div>
 <div class="prefooter">
-    <h5>Create your own news bite now!</h5>
+    <h5>{{t 'bite.createNow'}}</h5>
     <a class='btn btn-md btn-link' href="/">
         <i class="icon-magic"></i>
-        Click here to start
+        {{t 'bite.clickHere'}}
     </a>
 </div>

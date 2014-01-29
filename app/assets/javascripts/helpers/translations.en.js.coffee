@@ -14,6 +14,8 @@ window.en =
   'text.about' : 'About'
   'text.home' : 'Home'
   'text.random' : 'Random News Bite'
+  'bite.createNow' :'Create your own news bite now!'
+  'bite.clickHere' :'Click here to start'
   'about.title' : 'Most awesome site ever?'
   'about.centerText' : 'Maybe.'
   'about.text1' : "Thanks for visiting news yeti, the site that lets you quickly and easily create news bites.
@@ -23,6 +25,5 @@ window.en =
   'about.text2' : "This site was built as part of the <a href='http://not-ninjas.com'>eBay Israel Innovation Center</a>'s weekly
           side projects by -"
   'editLink.important' : 'Important:'
-  'editLink.explanation': 'You will able to edit this news bite only with this url:'
-  'editLink.mailto' : 'Click here to send an email with the edit url'
+  'editLink.explanation': 'You will only be able to edit this news bite with the browser and computer used to create it'
 
