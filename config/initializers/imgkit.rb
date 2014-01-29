@@ -1,3 +1,4 @@
 IMGKit.configure do |config|
-  config.wkhtmltoimage = Rails.root.join('bin', 'wkhtmltoimage-amd64').to_s if ENV['RACK_ENV'] == 'production'
+  binary_name = ENV['RACK_ENV'] == 'production' ? 'wkhtmltoimage-amd64' : 'wkhtmltoimage'
+  config.wkhtmltoimage = Rails.root.join('bin', binary_name).to_s
 end
