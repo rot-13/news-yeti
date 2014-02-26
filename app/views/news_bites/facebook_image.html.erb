@@ -4,36 +4,26 @@
   <style>
     body {
       margin: 0;
-      width: 640px !important;
+      width: 955px !important;
       background-image: url('<%="#{Rails.root}/app/assets/images/news-yeti-small.png" %>');
       background-repeat: no-repeat;
-      background-position: 490px 125px;
+      background-position: 637px 125px;
     }
     h1 {
       font-size: 75px;
       line-height: 86px;
       margin-left: 10px;
-      width: 480px;
-      max-height: 360px;
+      width: 630px;
+      max-height: 637px;
       display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
       position: relative;
       top: -50px;
       direction: ltr;
-    }
-    div#white-cover {
-      position: absolute;
-      top: 260px;
-      width: 430px;
-      height: 200px;
-      background-color: #fff;
     }
   </style>
 </head>
 <body>
   <h1 id="title"><span><%=@news_bite.top_text%></span></h1>
-  <div id="white-cover">&nbsp;</div>
   <script type="text/javascript">
     var titleElement = document.getElementById('title');
     if (/[א-ת]/.test(titleElement.innerHTML)) {

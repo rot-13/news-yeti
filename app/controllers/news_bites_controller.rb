@@ -17,6 +17,9 @@ class NewsBitesController < ApplicationController
   def show
     respond_with @news_bite, scope: {:can_edit => can_edit?} do |format|
       format.html { render }
+      format.jpg {
+        send_data create_news_bite_image, type: 'image/jpeg', disposition: :inline
+      }
     end
   end
 
@@ -56,7 +59,7 @@ class NewsBitesController < ApplicationController
 
     def create_news_bite_image
       html = render_to_string('news_bites/facebook_image', layout: false, formats: 'html')
-      kit = IMGKit.new(html, quality: 100, width: 640, height: 360)
+      kit = IMGKit.new(html, quality: 100, width: 955, height: 637)
       kit.to_img(:jpg)
     end
 
