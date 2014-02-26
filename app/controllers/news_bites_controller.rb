@@ -17,17 +17,13 @@ class NewsBitesController < ApplicationController
   def show
     respond_with @news_bite, scope: {:can_edit => can_edit?} do |format|
       format.html { render }
-      format.jpg {
-        html = render_to_string('news_bites/facebook_image', layout: false, formats: 'html')
-        kit = IMGKit.new(html, quality: 100, width: 640, height: 360)
-        send_data kit.to_img(:jpg), type: 'image/jpeg', disposition: :inline
-      }
     end
   end
 
   def create
     @news_bite = NewsBite.create(news_bite_params)
     session[:edit_key] = @news_bite.edit_key
+    @news_bite.update(:image_url => upload_news_bite_image)
     respond_with @news_bite
   end
 
@@ -58,13 +54,26 @@ class NewsBitesController < ApplicationController
       params.require(:news_bite).permit(:top_text, :center_text)
     end
 
-
-  def facebook_scraper
-    if request.user_agent.include? 'facebookexternalhit'
-      render template: 'news_bites/facebook', layout: nil
-    elsif request.format.html?
-      render template: 'application/root'
+    def create_news_bite_image
+      html = render_to_string('news_bites/facebook_image', layout: false, formats: 'html')
+      kit = IMGKit.new(html, quality: 100, width: 640, height: 360)
+      kit.to_img(:jpg)
     end
-  end
+
+    def upload_news_bite_image
+      s3 = AWS::S3.new
+      bucket = s3.buckets['newsyeti']
+      obj = bucket.objects.create("#{@news_bite.url}.jpg", '???')
+      obj.write(create_news_bite_image)
+      obj.public_url.to_s
+    end
+
+    def facebook_scraper
+      if request.user_agent.include? 'facebookexternalhit'
+        render template: 'news_bites/facebook', layout: nil
+      elsif request.format.html?
+        render template: 'application/root'
+      end
+    end
 
 end
