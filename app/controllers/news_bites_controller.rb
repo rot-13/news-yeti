@@ -59,7 +59,7 @@ class NewsBitesController < ApplicationController
 
     def create_news_bite_image
       html = render_to_string('news_bites/facebook_image', layout: false, formats: 'html')
-      kit = IMGKit.new(html, quality: 100, width: 955, height: 637)
+      kit = IMGKit.new(html, quality: 100, width: 1200, height: 627)
       kit.to_img(:jpg)
     end
 
