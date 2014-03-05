@@ -22,3 +22,11 @@
 Kvar = Ember.Application.create({LOG_TRANSITIONS: true});
 
 //= require_tree .
+
+Handlebars.registerHelper('language', function(block) {
+    return (language == 'he') ? 'en' : 'he';
+});
+
+Handlebars.registerHelper('switchLanguage', function(block) {
+    return Ember.I18n.t('text.switch');
+});

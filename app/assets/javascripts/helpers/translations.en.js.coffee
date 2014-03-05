@@ -15,6 +15,7 @@ window.en =
   'text.about' : 'About'
   'text.home' : 'Home'
   'text.random' : 'Random News Bite'
+  'text.switch' : 'עברית'
   'bite.createNow' :'Create your own news bite now!'
   'bite.clickHere' :'Click here to start'
   'about.title' : 'Most awesome site ever?'

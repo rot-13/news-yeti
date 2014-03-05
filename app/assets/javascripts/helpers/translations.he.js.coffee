@@ -15,6 +15,7 @@ window.he =
   'text.about' : 'אודות'
   'text.home' : 'עמוד הבית'
   'text.random' : 'ידיעה אקראית'
+  'text.switch' : 'English'
   'bite.createNow' :'גם אתם יכולים ליצור ידיעה!'
   'bite.clickHere' :'לחצו כאן'
   'about.title' : 'האם זה לא האתר המדהים ביותר שראיתם?'
