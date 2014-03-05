@@ -69,6 +69,8 @@ class NewsBitesController < ApplicationController
       obj = bucket.objects.create("#{@news_bite.url}.jpg", '???')
       obj.write(create_news_bite_image)
       obj.public_url.to_s
+    rescue Exception => exception
+      Rails.logger.warn "News Bite #{@news_bite.url} failed to upload image to AWS"
     end
 
     def facebook_scraper
