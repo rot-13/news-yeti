@@ -8,6 +8,7 @@ Kvar.IndexRoute = Ember.Route.extend
     submitAction: (newsBite) ->
       newsBite.save().then( (savedItem) =>
         @transitionTo 'bite', savedItem
+        Ember.$.getJSON("/api/news_bites/#{savedItem.get('url')}/create_image")
       )
 
     randomize: (newsBite) ->
