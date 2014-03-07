@@ -1,7 +1,9 @@
 Kvar::Application.routes.draw do
 
   scope :api, defaults: {format: :json} do
-    resources :news_bites
+    resources :news_bites do
+      get :create_image
+    end
   end
 
   get '/', to: 'application#root'

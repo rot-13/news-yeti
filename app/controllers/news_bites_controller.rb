@@ -26,8 +26,13 @@ class NewsBitesController < ApplicationController
   def create
     @news_bite = NewsBite.create(news_bite_params)
     session[:edit_key] = @news_bite.edit_key
-    @news_bite.update(:image_url => upload_news_bite_image)
     respond_with @news_bite
+  end
+
+  def create_image
+    @news_bite = NewsBite.find_by(:url => params[:news_bite_id])
+    @news_bite.update(:image_url => upload_news_bite_image)
+    render :json => { :success => 'success'}
   end
 
   # PATCH/PUT /sites/1
