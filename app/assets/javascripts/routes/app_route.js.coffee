@@ -8,4 +8,4 @@ Kvar.ApplicationRoute = Ember.Route.extend
 
   beforeModel: ->
     Ember.I18n.translations = if (language == 'he') then he else en
-    $(".site").css({direction:if (language == 'he') then 'rtl' else 'ltr' })
+    $("body").css({direction:if (language == 'he') then 'rtl' else 'ltr' })
