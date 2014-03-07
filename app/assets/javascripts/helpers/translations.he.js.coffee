@@ -11,7 +11,7 @@ window.he =
   'welcome.demobites.4.a': 'כן.'
   'button.save' : 'שמירה'
   'button.edit' : 'עריכה'
-  'text.ampersand' : 'ו'
+  'text.ampersand' : '&'
   'text.about' : 'אודות'
   'text.home' : 'עמוד הבית'
   'text.random' : 'ידיעה אקראית'

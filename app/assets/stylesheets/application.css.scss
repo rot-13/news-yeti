@@ -26,9 +26,6 @@ body{
   text-align: center;
   padding: 80px 10px;
   background: $white;
-  &.rtl{
-    direction: rtl;
-  }
   .top{
     font-size: 32px;
     @include mobile{
