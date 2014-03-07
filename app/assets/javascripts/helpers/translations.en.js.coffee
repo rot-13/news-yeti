@@ -1,7 +1,7 @@
 window.en =
   'welcome.text': 'Just write something, save and share your news updates with the world!'
   'welcome.anotherExample': 'Show me another example'
-  'welcome.demobites.1.q':'Did Russia conquer Ukraine yet?'
+  'welcome.demobites.1.q':'has Russia conquered Ukraine yet?'
   'welcome.demobites.1.a': 'NO.'
   'welcome.demobites.2.q':'Did Bitcoin pass $10,000 yet?'
   'welcome.demobites.2.a': 'NO.'
