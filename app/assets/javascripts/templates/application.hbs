@@ -4,6 +4,15 @@
 
 <footer>
     <div class='yeti-container'><div class='yeti'></div></div>
+        {{#isBitePage}}
+            <div class="prefooter">
+                <h5>{{t 'bite.createNow'}}</h5>
+                <a class='btn btn-md btn-link' href="/">
+                    <i class="icon-magic"></i>
+                    {{t 'bite.clickHere'}}
+                </a>
+            </div>
+        {{/isBitePage}}
     <span class='created-by' dir="ltr">
         <a href='https://twitter.com/yonbergman' target='_blank'>@yonbergman</a>
         ,

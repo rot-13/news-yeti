@@ -19,7 +19,10 @@
 //= require kvar
 
 // for more details see: http://emberjs.com/guides/application/
-Kvar = Ember.Application.create({LOG_TRANSITIONS: true});
+Kvar = Ember.Application.create({
+    LOG_TRANSITIONS: true,
+    currentPath: ''
+});
 
 //= require_tree .
 
@@ -29,4 +32,12 @@ Handlebars.registerHelper('language', function(block) {
 
 Handlebars.registerHelper('switchLanguage', function(block) {
     return Ember.I18n.t('text.switch');
+});
+
+Handlebars.registerHelper('isBitePage', function(block) {
+    if (Kvar.get('currentPath') === 'bite') {
+        return block.fn(this);
+    } else {
+        return block.inverse(this)
+    }
 });
