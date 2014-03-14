@@ -24,6 +24,11 @@ Kvar = Ember.Application.create({
     currentPath: ''
 });
 
+Kvar.ApplicationView = Ember.View.extend({
+    templateName: 'application',
+    classNames: ['main-container']
+});
+
 //= require_tree .
 
 Handlebars.registerHelper('language', function(block) {
